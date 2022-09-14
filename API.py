@@ -15,6 +15,7 @@ from module.Data.data import dataWriter
 from module.Map.returnMap import deleteFolder, getFile, produceMap
 
 app = FastAPI()
+
 origins = [
     "http://localhost:3000",
     "localhost:3000"

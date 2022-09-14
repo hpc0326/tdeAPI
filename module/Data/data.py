@@ -83,7 +83,7 @@ def dataWriter(storename , start  , end):
         if  start !=  None and end != None and not timeRange(start , end  , i['CreatedAt']) :
             continue
         
-        timeAna = timeAnalysis(timeAna , i['CreateAt'])
+        timeAna = timeAnalysis(timeAna , i['CreatedAt'])
         if  i['Storename'] == name and i['Status'] == 'finished':
             for k in i['Dishes']:#per dish
                 if not k['Name'] in item.keys():
