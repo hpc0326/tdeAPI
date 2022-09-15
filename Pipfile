@@ -4,7 +4,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-opencv-python = "*"
 requests = "*"
 fastapi = "*"
 uvicorn = {extras = ["standard"], version = "*"}
@@ -15,6 +14,7 @@ pydantic = "*"
 pandas = "*"
 configparser = "*"
 matplotlib = "*"
+opencv-python-headless = "*"
 
 [dev-packages]
 
